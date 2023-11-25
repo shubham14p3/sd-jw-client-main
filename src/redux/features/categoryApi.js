@@ -5,16 +5,16 @@ export const categoryApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addCategory: builder.mutation({
       query: (data) => ({
-        url: "https://shofy-backend.vercel.app/api/category/add",
+        url: `${process.env.NEXT_PUBLIC_DB_HOST}/api/category/add`,
         method: "POST",
         body: data,
       }),
     }),
     getShowCategory: builder.query({
-      query: () => `https://shofy-backend.vercel.app/api/category/show`
+      query: () => `${process.env.NEXT_PUBLIC_DB_HOST}/api/category/show`
     }),
     getProductTypeCategory: builder.query({
-      query: (type) => `https://shofy-backend.vercel.app/api/category/show/${type}`
+      query: (type) => `${process.env.NEXT_PUBLIC_DB_HOST}/api/category/show/${type}`
     }),
   }),
 });

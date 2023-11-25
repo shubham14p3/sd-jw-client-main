@@ -22,7 +22,6 @@ const HomeFour = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Four" />
-
       <Header/>
       <HomeHeroSlider/>
       <ElectronicCategory/>

@@ -2,6 +2,7 @@
   "name": "shofy-client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:7000",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +13,7 @@
     "@hookform/resolvers": "^3.1.0",
     "@popperjs/core": "^2.11.6",
     "@react-oauth/google": "^0.11.0",
-    "@reduxjs/toolkit": "^1.9.3",
+    "@reduxjs/toolkit": "^1.9.7",
     "@stripe/react-stripe-js": "^2.1.0",
     "@stripe/stripe-js": "^1.52.1",
     "bootstrap": "^5.2.3",

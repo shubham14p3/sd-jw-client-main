@@ -73,7 +73,9 @@ const menu_data = [
         link: '/shop',
         mega_menus: [
           { title: 'Login', link: '/login' },
+          { title: 'Admin Login', link: '/admin-login' },
           { title: 'Register', link: '/register' },
+          { title: 'Admin Register', link: '/admin-register' },
           { title: 'Forgot Password', link: '/forgot' },
           { title: '404 Error', link: '/404' },
         ]
